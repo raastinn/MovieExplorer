@@ -1,0 +1,37 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="favicon2.png">
+  <link rel="stylesheet" href="p2style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="p2script.js" defer></script>
+  <title>Explore Movies</title>
+</head>
+<body>
+  <nav>
+      <div class="logo">
+          <a href="project2.html"><img src="logo.png" alt="Logo Image"></a>
+      </div>
+  </nav>
+  <div class="header">
+  </div>
+  <form>
+    <div class="search-box">
+      <input id="movieInput" type ="text" class ="txt" placeholder ="eg. Avengers">
+      <a id="myBtn" onclick="importMovies(); topFunction();" class="btn"><i class ="fa fa-search"></i></a>
+    </div>
+</form>
+  <div id="desc">
+    <p id="welcome">Welcome.</p>
+    <p class="line anim-typewriter">Millions of movies, TV shows and people to discover. Explore now.</p>
+    <p class="mobile">Millions of movies, TV shows and people to discover. Explore now.</p>
+  </div>
+  <div class="error"></div>
+  <div class="showAllMovies"></div>
+  <div class="container"></div>
+  <div class="sim"></div>
+  <div class="displaySimilar"></div>
+  <div id="raw"></div>
+</body>
+</html>
